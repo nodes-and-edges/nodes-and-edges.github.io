@@ -1,4 +1,4 @@
-###### Tools
+### Tools
 
 # Layered graph drawing with the Sugiyama Framework.
 
