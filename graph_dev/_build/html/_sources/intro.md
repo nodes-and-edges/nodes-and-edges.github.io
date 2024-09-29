@@ -1,7 +1,5 @@
 # Nodes and Edges
 
-image:
-
 
 ```{figure} _static/images/background.png
 ---

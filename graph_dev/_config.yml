@@ -1,6 +1,11 @@
-# Book settings
-# Learn more at https://jupyterbook.org/customize/config.html
 
+#######################################################################################
+# A default configuration that will be loaded for all jupyter books
+# See the documentation for help and more options: 
+# https://jupyterbook.org/customize/config.html
+#######################################################################################
+
+# Book settings
 title: Nodes and Edges
 author: the pigeon couple.
 logo: logo.png
@@ -33,3 +38,9 @@ html:
   use_repository_button: true
   favicon: "_static/favicon.ico"
   home_page_in_navbar: true
+
+
+
+#sphinx:
+#  config:
+#    html_theme: pydata_sphinx_theme
