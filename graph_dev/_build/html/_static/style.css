@@ -81,11 +81,13 @@ h2:after{
     display:block;
     border:1px solid #AAA;
 }
-h3 { /* cute tiny font */
+.tiny { /* cute tiny font */
 	font-family: 'Noto Sans';
-	letter-spacing: 2px;
+	letter-spacing: 6px;
+	font-size: 70%;
+	font-weight: 600;
 	text-transform: uppercase;
-	font-size: 50;
+	color: var(--nae-gray-pink);
 }
 ol li > p:first-child, ul li > p:first-child{
 	margin-bottom: 0px;
@@ -112,7 +114,7 @@ b, strong{
 
 
 
-h3 {
+h6 {
 	margin-top: 1em;
 	font-size:120%;
 	line-height: 1.5;

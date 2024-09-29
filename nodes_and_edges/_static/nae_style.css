@@ -81,7 +81,7 @@ h2:after{
     display:block;
     border:1px solid #AAA;
 }
-h3 { /* cute tiny font */
+.tinypinkspace { /* cute tiny font */
 	font-family: 'Noto Sans';
 	letter-spacing: 6px;
 	font-size: 70%;
