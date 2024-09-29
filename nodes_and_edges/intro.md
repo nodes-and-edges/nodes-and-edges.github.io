@@ -1,4 +1,14 @@
-# Nodes and edges
+# Nodes and Edges
+
+
+```{figure} _static/images/background.png
+---
+height: 300px
+name: directive-fig
+align: center
+---
+
+```
 
 This is a small sample book to give you a feel for how book content is
 structured.
