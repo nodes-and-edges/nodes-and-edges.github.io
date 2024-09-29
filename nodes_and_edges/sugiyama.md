@@ -1,6 +1,6 @@
-### Tools
-
 # Layered graph drawing with the Sugiyama Framework.
+
+### Tools
 
 <!-- every paragraph should start with a summary sentence -->
 <!-- 800 words -->
