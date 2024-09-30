@@ -10,12 +10,14 @@ align: center
 
 ```
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
-
-Check out the content pages bundled with this sample book to see more.
-
 ```{tableofcontents}
 ```
+
+
+About Edges and Nodes
+
+Graphs are all around us.
+
+Welcome to our website, where we aim to make the fascinating world of graphs accessible to everyone. Our posts simplify complex mathematical concepts, as well as showcase the many applications of graph theory in everyday life. From hidden relationships between diseases and symptoms to social dynamics and traffic patterns, graphs are everywhere, just waiting to be discovered. Our content is driven by curiosity and a passion for revealing the hidden beauty of math.
+
+
