@@ -130,7 +130,7 @@ h3 {
 ol li > p:first-child, ul li > p:first-child{
 	margin-bottom: 0px;
 }
-.bd-content p{
+.bd-content p, .sd-card-body > .sd-card-text{
 	/*color: var(--nae-main-green);*/
 	font-family: var(--nae-serif-text);
 	/*line-height: 1.5 !important;*/
@@ -144,8 +144,23 @@ ol li > p:first-child, ul li > p:first-child{
 	font-size: 90%;
 	letter-spacing: 0.2px;
 }
-.tinypinkspace { /* cute tiny font */
-	font-family: var(--nae-sans-text);
+
+.sd-card-footer {
+	font-family: var(--nae-serif-text);	
+}
+
+.sd-card-title {
+	font-family: var(--nae-bold-headline);
+	font-weight: 900;
+	color: var(--nae-main-neutral); /* was --pst-color-muted */
+	font-size: var(--pst-font-size-h5);
+	line-height: 1.15;
+  	/*margin: 2.75rem 0 1.05rem;*/
+
+}
+
+.tinypinkspace, .sd-card-header > .sd-card-text { /* cute tiny font */
+	font-family: var(--nae-sans-text) !important;
 	letter-spacing: 6px;
 	font-size: 70%;
 	font-weight: 600;
