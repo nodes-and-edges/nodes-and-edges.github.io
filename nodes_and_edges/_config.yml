@@ -37,8 +37,3 @@ html:
   use_repository_button: true
   favicon: "_static/favicon.ico"
   home_page_in_navbar: true
-
-sphinx:
-  extra_extensions:
-  - ablog
-  - sphinx.ext.intersphinx
