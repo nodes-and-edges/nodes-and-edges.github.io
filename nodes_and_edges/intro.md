@@ -26,7 +26,9 @@ tools, visualisation
 ^^^
 A directed graph can represent a hierarchy, which we can define as a cycle-free digraph where the nodes are organized into discrete, parallel layers.
 +++
-[Read article](./sugiyama.html) by Christina, 2024-10-20
+[Read article](sugiyama.md) by Christina, 2024-10-20
+[Read article](../sugiyama.md) by Christina, 2024-10-20
+Here is {doc}`A different page <sugiyama.md>`
 ::::
 
 ::::{grid-item-card} Ising model
@@ -37,9 +39,10 @@ algorithms
 ^^^
 Magnetism.
 +++
-[Read article](./ising.html) by Mateo, 2024-10-20
+[Read article](../ising.md) by Mateo, 2024-10-20
 ::::
 
+% Here is [A different page](../file-types/myst-notebooks.md)
 
 :::::
 
