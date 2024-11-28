@@ -30,7 +30,7 @@ A directed graph can represent a hierarchy, which we can define as a cycle-free 
 ::::
 
 ::::{grid-item-card} Ising model
-:link: sugiyama.md
+:link: sugiyama.html
 :img-top: _static/images/blog/ising_1_firefly_crop.jpg
 :img-alt: pink and green mountain
 
@@ -38,7 +38,7 @@ algorithms
 ^^^
 Magnetism.
 +++
-[Read article](ising.md) by Mateo, 2024-10-20
+Read article by Mateo, 2024-10-20
 ::::
 
 
