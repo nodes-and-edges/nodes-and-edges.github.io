@@ -33,6 +33,23 @@ A directed graph can represent a hierarchy, which we can define as a cycle-free 
 
 
 
+```{admonition} game_wrapper
+:class: game__wrapper
+
+```
+
+```{admonition} game
+:class: game
+
+```
+
+
+<div id="game_title" class="fun_font"></div>
+<div id="game" class="game"></div>
+<div id="score" class="fun_font">Choose answer</div>
+
+
+
 ## References
 ```{bibliography}
 :filter: docname in docnames

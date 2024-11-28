@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+
+.game {
+  font-family: "Major Mono Display", monospace; 
+  display: flex; /* makes it same line*/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.fun_font{
+    font-family: "Major Mono Display", monospace; 
+}
+
+.game_title {
+  font-family: "Major Mono Display", monospace; 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  margin: 0.5rem;
+  padding: 1em;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: solid 0.1px #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.2) rotate(-10deg);
+    z-index: 1;
+    box-shadow: -0.2rem 0.5rem 0.5rem 0 rgba(0,0,0, 0.5);
+  }
+}
