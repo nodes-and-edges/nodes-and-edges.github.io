@@ -1,3 +1,4 @@
+window.onload = function() {
 const game = document.getElementById("game");
 const game_title = document.getElementById("game_title");
 const scoreElement = document.getElementById("score");
@@ -90,4 +91,7 @@ const generateLevel = () => {
 };
 
 
+
 generateLevel();
+};
+
