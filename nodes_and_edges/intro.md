@@ -18,9 +18,9 @@ align: center
 
 :::::{grid} 1 1 2 2
 
-::::{grid-item-card} Layered graph drawing with the Sugiyama Framework
+::::{grid-item-card} [Layered graph drawing with the Sugiyama Framework](sugiyama.md)
 :img-top: _static/images/blog/sugiyama_1_firefly_crop.jpg
-:img-alt:
+:img-alt: pink and green hand
 
 tools, visualisation
 ^^^
@@ -30,8 +30,9 @@ A directed graph can represent a hierarchy, which we can define as a cycle-free 
 ::::
 
 ::::{grid-item-card} Ising model
+:target: sugiyama.md
 :img-top: _static/images/blog/ising_1_firefly_crop.jpg
-:img-alt:
+:img-alt: pink and green mountain
 
 algorithms
 ^^^
