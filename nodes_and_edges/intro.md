@@ -1,4 +1,4 @@
-# NODES AND EDGES (under construction)
+# nOdES AnD EdGES (under construction)
 
 <!--
 
@@ -19,7 +19,7 @@ align: center
 :::::{grid} 1 1 2 2
 
 
-::::{grid-item-card} [Knowledge GrAphs from text](knowledgegraphs.md)
+::::{grid-item-card} [KnoWledge GrAphs froM teXt](knowledgegraphs.md)
 :img-top: _static/images/blog/knowledgegraphs_1_firefly_crop.jpg
 :img-alt: pink and green owl
 
@@ -30,7 +30,7 @@ Extracting knowledge graphs from text.
 [Read article](knowledgegraphs.md) by Christina, 2024-12-21
 ::::
 
-::::{grid-item-card} [Ising Model](ising.md)
+::::{grid-item-card} [IsinG Model](ising.md)
 :img-top: _static/images/blog/ising_1_firefly_crop.jpg
 :img-alt: pink and green mountain
 
@@ -41,7 +41,7 @@ Magnetism.
 [Read article](ising.md) by Mateo, 2024-10-20
 ::::
 
-::::{grid-item-card} [LAyered GrAph drAwing](sugiyama.md)
+::::{grid-item-card} [LAyeRed GRAph dRAWinG](sugiyama.md)
 :img-top: _static/images/blog/sugiyama_1_firefly_crop.jpg
 :img-alt: pink and green hand
 
