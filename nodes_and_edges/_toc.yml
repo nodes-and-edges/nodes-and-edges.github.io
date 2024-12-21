@@ -5,6 +5,8 @@ format: jb-book
 root: intro
 chapters:
   - file: sugiyama
+  - file: ising
+  - file: knowledgegraphs
 # - file: markdown
 # - file: notebooks
 # - file: markdown-notebooks

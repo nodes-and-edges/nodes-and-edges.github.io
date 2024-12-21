@@ -15,9 +15,9 @@ date: 2024-10-20
 ```
 --> 
 
-<span class="tinypinkspace">tools, visualisation</span>
+<span class="tinypinkspace">knowledge graph, tutorial</span>
 
-# Layered graph drawing
+# Knowledge graphs with NLP
 
 <!--
 |Author|Date|Category|
@@ -28,20 +28,18 @@ date: 2024-10-20
 <!-- every paragraph should start with a summary sentence -->
 <!-- 800 words -->
 
-## Hierarchical Graph Drawing
-A directed graph can represent a hierarchy, which we can define as a cycle-free digraph where the nodes are organized into discrete, parallel layers. {cite}`healy2013hierarchical`.
+## Welcome
+
+Let's go, let's create some knowledge graphs from publications.
+
+Things we need:
+* Publications, we can search for them on PubMed.
+* Visualisation tools.
 
 
 
 
 
-
-
-## Quiz
-
-<div id="game_title"></div> <!-- class="fun_font" -->
-<div id="game" class="game"></div>
-<div id="score">Choose an answer</div> <!-- class="fun_font" -->
 
 
 
