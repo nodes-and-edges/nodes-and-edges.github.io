@@ -30,7 +30,7 @@ Extracting knowledge graphs from text.
 [Read article](knowledgegraphs.md) by Christina, 2024-12-21
 ::::
 
-::::{grid-item-card} [Ising model](ising.md)
+::::{grid-item-card} [Ising Model](ising.md)
 :img-top: _static/images/blog/ising_1_firefly_crop.jpg
 :img-alt: pink and green mountain
 
@@ -41,7 +41,7 @@ Magnetism.
 [Read article](ising.md) by Mateo, 2024-10-20
 ::::
 
-::::{grid-item-card} [Layered graph drawing](sugiyama.md)
+::::{grid-item-card} [Layered Graph Drawing](sugiyama.md)
 :img-top: _static/images/blog/sugiyama_1_firefly_crop.jpg
 :img-alt: pink and green hand
 
