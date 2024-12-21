@@ -1,4 +1,4 @@
-# nOdES AnD EdGES (under construction)
+# nOdES And EdGES (under construction)
 
 <!--
 
@@ -19,7 +19,7 @@ align: center
 :::::{grid} 1 1 2 2
 
 
-::::{grid-item-card} [KnoWledge GrAphs froM teXt](knowledgegraphs.md)
+::::{grid-item-card} [KnoWledGe GrAphs froM teXt](knowledgegraphs.md)
 :img-top: _static/images/blog/knowledgegraphs_1_firefly_crop.jpg
 :img-alt: pink and green owl
 
@@ -91,7 +91,7 @@ Here's the third card.
 <span class="tinypinkspace">About Nodes and Edges</span>
 
 <span class="h1">
-GRAPHS ARE ALL AROUND uS.</span> <!-- Graphs are all around us. -->
+GRAphS ARE ALL AROund uS.</span> <!-- Graphs are all around us. -->
 
 Welcome to our website, where we aim to make the fascinating world of graphs accessible to everyone. Our posts simplify complex mathematical concepts, as well as showcase the many applications of graph theory in everyday life. From hidden relationships between diseases and symptoms to social dynamics and traffic patterns, graphs are everywhere, just waiting to be discovered. Our content is driven by curiosity and a passion for revealing the hidden beauty of math.
 
