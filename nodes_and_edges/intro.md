@@ -1,4 +1,4 @@
-# Nodes and Edges
+# Nodes and Edges (Under construction)
 
 <!--
 
@@ -18,6 +18,29 @@ align: center
 
 :::::{grid} 1 1 2 2
 
+
+::::{grid-item-card} [Knowledge Graphs from Text](knowledgegraphs.md)
+:img-top: _static/images/blog/knowledgegraphs_1_firefly_crop.jpg
+:img-alt: pink and green owl
+
+knowledge graph, tutorial
+^^^
+Extracting knowledge graphs from text.
++++
+[Read article](knowledgegraphs.md) by Christina, 2024-12-21
+::::
+
+::::{grid-item-card} [Ising model](ising.md)
+:img-top: _static/images/blog/ising_1_firefly_crop.jpg
+:img-alt: pink and green mountain
+
+algorithms
+^^^
+Magnetism.
++++
+[Read article](ising.md) by Mateo, 2024-10-20
+::::
+
 ::::{grid-item-card} [Layered graph drawing](sugiyama.md)
 :img-top: _static/images/blog/sugiyama_1_firefly_crop.jpg
 :img-alt: pink and green hand
@@ -29,17 +52,6 @@ A directed graph can represent a hierarchy. Using the Sugiyama Framework, we can
 [Read article](sugiyama.md) by Christina, 2024-10-20
 ::::
 
-::::{grid-item-card} Ising model
-:link: ising.html
-:img-top: _static/images/blog/ising_1_firefly_crop.jpg
-:img-alt: pink and green mountain
-
-algorithms
-^^^
-Magnetism.
-+++
-Read article by Mateo, 2024-10-20
-::::
 
 
 :::::

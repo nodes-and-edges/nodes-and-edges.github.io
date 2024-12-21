@@ -32,7 +32,7 @@ date: 2024-10-20
 A directed graph can represent a hierarchy, which we can define as a cycle-free digraph where the nodes are organized into discrete, parallel layers. {cite}`healy2013hierarchical`.
 
 
-
+## Introduction to the Sugiyama Framework
 
 
 

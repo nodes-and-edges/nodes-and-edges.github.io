@@ -16,7 +16,6 @@
 
 .game_title {
   font-family: "Major Mono Display", monospace; 
-  text-transform: capitalize;
   position: relative;
   display: flex;
   justify-content: center;

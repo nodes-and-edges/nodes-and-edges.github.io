@@ -17,7 +17,7 @@ date: 2024-10-20
 
 <span class="tinypinkspace">knowledge graph, tutorial</span>
 
-# Knowledge graphs with NLP
+# Knowledge Graphs from Text
 
 <!--
 |Author|Date|Category|

@@ -6,9 +6,9 @@
 #######################################################################################
 # Book settings
 title: Nodes and Edges
-author: the pigeon couple.
+author: the pigeon couple. Graphics generated with Adobe Firefly.
 logo: logo.png
-copyright: "2024"
+copyright: "2025"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
