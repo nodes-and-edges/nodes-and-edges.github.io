@@ -21,9 +21,9 @@ html[data-theme="light"]{
 	--pst-color-inline-code : var(--nae-gray-pink);  
 	--pst-color-link-hover: var(--nae-main-neutral); 
 
-	--nae-bold-headline: "DM Serif Display", serif;
-	--nae-pink-space: 'Noto Sans';
-	--nae-sans-text: 'Noto Sans';
+	--nae-bold-headline: "Major Mono Display", monospace; /*"DM Serif Display", serif;*/
+	--nae-pink-space: "Noto Sans";
+	--nae-sans-text: "Noto Sans";
 	--nae-serif-text: "EB Garamond";
 
 	--pst-font-family-base-system: ;
@@ -59,7 +59,7 @@ html[data-theme="dark"]{
 	--pst-color-inline-code : var(--nae-gray-pink);  
 	--pst-color-link-hover: var(--nae-main-neutral);
 
-	--nae-bold-headline: "DM Serif Display", serif;
+	--nae-bold-headline: "Major Mono Display", monospace;
 	--nae-pink-space: 'Noto Sans';
 	--nae-sans-text: 'Noto Sans';
 	--nae-serif-text: "EB Garamond";
@@ -98,6 +98,7 @@ h1, h2, h3, h4, .h1 {
 
 h1, .h1{
 	font-family: var(--nae-bold-headline); /*"DM Serif Display", serif;*/
+	text-transform: uppercase;
 	color: var(--nae-main-neutral) !important;
 	font-weight: 900 !important;
 	font-style: normal !important;
@@ -151,6 +152,7 @@ ol li > p:first-child, ul li > p:first-child{
 
 .sd-card-title {
 	font-family: var(--nae-bold-headline);
+	text-transform: uppercase;
 	font-weight: 900;
 	color: var(--nae-main-neutral); /* was --pst-color-muted */
 	font-size: var(--pst-font-size-h5);
