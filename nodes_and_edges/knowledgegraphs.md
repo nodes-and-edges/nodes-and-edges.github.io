@@ -62,7 +62,7 @@ Things we need:
 
 
 
-```
+```{mermaid}
 flowchart LR
 	NLTK --> NER --> Relation extractor
 ```
