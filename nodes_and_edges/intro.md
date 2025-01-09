@@ -25,7 +25,7 @@ align: center
 
 knowledge graph, tutorial
 ^^^
-Extracting knowledge graphs from text.
+Extracting knowledge graphs from text with Named Entity Recognition (NER) and Relation Extraction.
 +++
 [Read article](knowledgegraphs.md) by Christina, 2024-12-21
 ::::
@@ -41,13 +41,13 @@ Magnetism.
 [Read article](ising.md) by Mateo, 2024-10-20
 ::::
 
-::::{grid-item-card} [Layered Graph Drawing with Sugiyama](sugiyama.md)
+::::{grid-item-card} [Layered Graph Drawing](sugiyama.md)
 :img-top: _static/images/blog/sugiyama_1_firefly_crop.jpg
 :img-alt: pink and green hand
 
 tools, visualisation
 ^^^
-A directed graph can represent a hierarchy. Using the Sugiyama Framework, we can separate and visualise the graph as parallel layers.
+A directed graph can represent a hierarchy. Using the Sugiyama Framework, we can visualise the graph as parallel layers.
 +++
 [Read article](sugiyama.md) by Christina, 2024-10-20
 ::::
