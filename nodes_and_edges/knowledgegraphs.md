@@ -52,20 +52,12 @@ Things we need:
 * Named entity recognition: BERN2, PubTator 3.0 with AIONER
 * Relation extractor: zero-shot relation extractor (zero_shot_re)
 
-.. blockdiag::
-
-   diagram {
-     A -> B -> C;
-          B -> D;
-   }
-
-
-
 
 ```{mermaid}
-flowchart LR
+graph LR
 	NLTK --> NER --> Relation extractor
 ```
+
 
 
 ### Text preprocessing
