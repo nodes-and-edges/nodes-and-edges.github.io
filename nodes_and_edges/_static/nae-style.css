@@ -21,7 +21,7 @@ html[data-theme="light"]{
 	--pst-color-inline-code : var(--nae-gray-pink);  
 	--pst-color-link-hover: var(--nae-main-neutral); 
 
-	--nae-bold-headline: "Major Mono Display", monospace; /*"DM Serif Display", serif;*/
+	--nae-bold-headline: "DM Serif Display", serif;  /*"DM Serif Display", serif; or "Major Mono Display", monospace;*/
 	--nae-pink-space: "Noto Sans";
 	--nae-sans-text: "Noto Sans";
 	--nae-serif-text: "EB Garamond";
@@ -59,7 +59,7 @@ html[data-theme="dark"]{
 	--pst-color-inline-code : var(--nae-gray-pink);  
 	--pst-color-link-hover: var(--nae-main-neutral);
 
-	--nae-bold-headline: "Major Mono Display", monospace;
+	--nae-bold-headline: "DM Serif Display", monospace;
 	--nae-pink-space: 'Noto Sans';
 	--nae-sans-text: 'Noto Sans';
 	--nae-serif-text: "EB Garamond";

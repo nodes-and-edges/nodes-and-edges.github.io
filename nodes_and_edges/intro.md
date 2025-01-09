@@ -19,7 +19,7 @@ align: center
 :::::{grid} 1 1 2 2
 
 
-::::{grid-item-card} [KnoWLedGe GrAphs froM teXt](knowledgegraphs.md)
+::::{grid-item-card} [Knowledge Graphs from Text](knowledgegraphs.md)
 :img-top: _static/images/blog/knowledgegraphs_1_firefly_crop.jpg
 :img-alt: pink and green owl
 
@@ -41,7 +41,7 @@ Magnetism.
 [Read article](ising.md) by Mateo, 2024-10-20
 ::::
 
-::::{grid-item-card} [LAyeRed GRAph dRAWinG](sugiyama.md)
+::::{grid-item-card} [Layered Graph Drawing with Sugiyama](sugiyama.md)
 :img-top: _static/images/blog/sugiyama_1_firefly_crop.jpg
 :img-alt: pink and green hand
 
