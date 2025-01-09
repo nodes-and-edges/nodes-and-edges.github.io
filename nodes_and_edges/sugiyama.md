@@ -17,7 +17,7 @@ date: 2024-10-20
 
 <span class="tinypinkspace">tools, visualisation</span>
 
-# Layered Graph Drawing
+# Layered graph drawing with the Sugiyama Framework
 
 <!--
 |Author|Date|Category|

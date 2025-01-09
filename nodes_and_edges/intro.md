@@ -1,4 +1,4 @@
-# nodes And edGes (under construction)
+# Nodes and Edges (under construction)
 
 <!--
 
@@ -41,7 +41,7 @@ Magnetism.
 [Read article](ising.md) by Mateo, 2024-10-20
 ::::
 
-::::{grid-item-card} [Layered Graph Drawing](sugiyama.md)
+::::{grid-item-card} [Layered graph drawing with the Sugiyama Framework](sugiyama.md)
 :img-top: _static/images/blog/sugiyama_1_firefly_crop.jpg
 :img-alt: pink and green hand
 

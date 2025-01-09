@@ -61,7 +61,7 @@ flowchart LR
 
 ```{mermaid}
 graph LR
-  a --> NER --> Relation extractor
+  a --> NER
 ```
 
 
