@@ -41,6 +41,5 @@ html:
 
 sphinx:
   extra_extensions:
-    - myst_parser
     - sphinxcontrib.mermaid
-    - sphinxcontrib.blockdiag
+    - myst_parser
