@@ -30,7 +30,7 @@ Extracting knowledge graphs from text.
 [Read article](knowledgegraphs.md) by Christina, 2024-12-21
 ::::
 
-::::{grid-item-card} [isinG ModeL](ising.md)
+::::{grid-item-card} [Ising Model](ising.md)
 :img-top: _static/images/blog/ising_1_firefly_crop.jpg
 :img-alt: pink and green mountain
 
@@ -90,8 +90,7 @@ Here's the third card.
 
 <span class="tinypinkspace">About Nodes and Edges</span>
 
-<span class="h1">
-GRAphs ARe ALL ARound us.</span> <!-- Graphs are all around us. -->
+<span class="h1">Graphs are all around us.</span> <!-- Graphs are all around us. -->
 
 Welcome to our website, where we aim to make the fascinating world of graphs accessible to everyone. Our posts simplify complex mathematical concepts, as well as showcase the many applications of graph theory in everyday life. From hidden relationships between diseases and symptoms to social dynamics and traffic patterns, graphs are everywhere, just waiting to be discovered. Our content is driven by curiosity and a passion for revealing the hidden beauty of math.
 

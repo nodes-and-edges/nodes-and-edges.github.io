@@ -98,7 +98,7 @@ h1, h2, h3, h4, .h1 {
 
 h1, .h1{
 	font-family: var(--nae-bold-headline); /*"DM Serif Display", serif;*/
-	/*text-transform: uppercase;*/
+	text-transform: uppercase;
 	color: var(--nae-main-neutral) !important;
 	font-weight: 900 !important;
 	font-style: normal !important;
@@ -152,7 +152,7 @@ ol li > p:first-child, ul li > p:first-child{
 
 .sd-card-title {
 	font-family: var(--nae-bold-headline);
-	/*text-transform: uppercase;*/
+	text-transform: uppercase;
 	font-weight: 900;
 	color: var(--nae-main-neutral); /* was --pst-color-muted */
 	font-size: var(--pst-font-size-h5);
