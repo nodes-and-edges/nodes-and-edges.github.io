@@ -61,14 +61,14 @@ flowchart LR
 
 ```{mermaid}
 graph LR
-  NLTK --> NER 
-  NER --> Relation extractor
+  A[NLTK] --> B[NER] 
+  B --> C[Relation extractor]
 ```
 
 
 ```{mermaid}
 graph LR
-  NLTK --> NER --> Relation extractor
+  NLTK --> NER
 ```
 
 
