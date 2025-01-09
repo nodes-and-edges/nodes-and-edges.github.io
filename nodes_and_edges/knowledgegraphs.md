@@ -54,6 +54,18 @@ Things we need:
 
 
 ```{mermaid}
+flowchart LR
+	NLTK --> NER --> Relation extractor
+```
+
+
+```{mermaid}
+graph LR
+  a --> b
+```
+
+
+```{mermaid}
 graph LR
 	NLTK --> NER --> Relation extractor
 ```
