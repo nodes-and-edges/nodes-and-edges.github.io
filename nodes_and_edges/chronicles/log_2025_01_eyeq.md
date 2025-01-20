@@ -1,6 +1,8 @@
 <span class="tinypinkspace">javascript, tutorial</span>
 
-# A little story about eyeQ 
+# I failed an anatomy exam and build a JavaScript app
+
+## A little story about eyeQ [Introduction]
 
 I failed an exam in anatomy, and needed to study. Which lead to a lot of ideas, because what time is better to start a random new project than in times where your goal is to memorise what the difference between cranial nerve 2 and 3 is. So, I ended up creating a little JavaScript quiz.
 

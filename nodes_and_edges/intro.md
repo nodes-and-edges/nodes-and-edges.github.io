@@ -88,9 +88,13 @@ Here's the third card.
 </div>
 -->
 
-<span class="tinypinkspace">About the pigeon couple</span>
-Welcome to our website, where we aim to make the fascinating world of STEAM accessible to everyone. Our content is driven by curiosity and a passion for revealing the hidden beauty of science.
+<span class="tinypinkspace">About the pigeon couple.</span>
+Hi, we are the pigeon couple! We go by Cookie and Cooper (pseudonyms) and are two millenials who want to give our urge to start a new project or whole field of expertise on a daily basis a space. Or a cloud. Therefore, welcome to our website - you will mainly find nerdy research content and PrepTalks here. Seriosuly, we need some more creativity and passion in this world. And plant trees, we should really plant more trees.
 
+
+<!-- Welcome to our website, we are Cookie and Cooper (pigeon pseudonyms). We wanted to give our urge to start a new project or whole field of expertise on a daily basis room.
+We aim to make the fascinating world of STEAM accessible to everyone here. Our content is driven by curiosity and a passion for revealing the hidden beauty of science.
+-->
 
 
 <!-- <span class="h1">Graphs are all around us.</span> Graphs are all around us. -->

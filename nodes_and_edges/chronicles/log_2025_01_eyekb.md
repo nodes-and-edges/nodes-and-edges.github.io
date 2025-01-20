@@ -4,7 +4,7 @@
 
 I found a super fascinating paper on knowledge graphs for eyes, messaged the author, got disencouraged, cried to my boyfriend, stopped crying, found some cool NLP tutorials and now here we are! Building a knowledge graph from text. Whether it will be useful or not will be seen in the future, but I really enjoyed generating the knowledge graph.
 
-# Coding [Methods]
+## Coding [Methods]
 
 * Text preprocessing: Natural Language Toolkit (NLTK)
 * Named entity recognition: BERN2, PubTator 3.0 with AIONER
