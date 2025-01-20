@@ -147,23 +147,16 @@ function start_eyeq(){
     const tile = document.createElement("div");
     tile.classList.add("tile");
     tile.id = id;
-
-
     const text = document.createElement("p");
     text.innerText = id;
     tile.appendChild(text);
-
-    console.log(map.get(id))
-    /*tile.img = map.get(id);*/
-
-
+    // console.log(map.get(id))
+    //tile.img = map.get(id);
     if (map.get(id) != null){
-
       const img = document.createElement("img");
       img.src = map.get(id); // Replace with your image path
-      /*img.alt = "Description of the image"; // Accessibility description*/
-      img.style.width = "200px"; // Set the width of the image
-
+      //img.alt = "Description of the image"; // Accessibility description
+      img.style.width = "100%"; // Set the width of the image
       // Add the image to the tile
       tile.appendChild(img);
     }
@@ -186,7 +179,7 @@ function start_eyeq(){
       const img = document.createElement("img");
       img.src = map.get(id); // Replace with your image path
       /*img.alt = "Description of the image"; // Accessibility description*/
-      img.style.width = "300px"; // Set the width of the image
+      img.style.width = "100%"; // Set the width of the image
 
       // Add the image to the tile
       tile.appendChild(img);
