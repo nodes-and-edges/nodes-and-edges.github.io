@@ -2,11 +2,33 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-chapters:
-  - file: sugiyama
-  - file: ising
-  - file: knowledgegraphs
-# - file: markdown
-# - file: notebooks
-# - file: markdown-notebooks
+root: intro # the favourite projects, and what is new at the moment
+parts:
+  - caption: Visionboard # show all the projects/visions (overview) - one page with all posts related to a goal, overview, visionboard, portfolio
+    - file: visionboard/overview_2025
+
+  - caption: Coo Chronicles # storytelling, challenges, show the process, project management, videos on social media, lessons learned, storytelling, logs, project management, updates
+    chapters:
+
+  - caption: Fully hatched # the final products, finished projects, js tools, blogposts, anything consumable, mission accomplished, can change over time cause of more progress
+    chapters:
+    - file: hatched/eyeQ
+    - file: hatched/blg_2025_01_ising # hatched goes to consumables later
+
+  - caption: Tutorials # tutorials about parts of the projects
+    chapters:
+
+  - caption: Incubator # drafts, when a text page isn't done, basically the "todo list", drafts, ideas, thinktank
+    chapters:
+    
+    - file: tto_2025_01_eyekb # tutorial knowledge base
+    - file: tto_2025_01_eyeq # tutorial eyeq quiz
+    - file: tto_2025_01_sugiyama # tutorial
+    - file: log_2025_01_eyeq # coo
+    - file: log_2025_01_eyekb # coo knowledge base
+
+
+
+  
+
+  # blogposts need a tldr section!!

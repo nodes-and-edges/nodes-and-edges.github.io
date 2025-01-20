@@ -1,4 +1,4 @@
-# Nodes and Edges (under construction)
+# The pigeon couple
 
 <!--
 
@@ -88,10 +88,13 @@ Here's the third card.
 </div>
 -->
 
-<span class="tinypinkspace">About Nodes and Edges</span>
+<span class="tinypinkspace">About the pigeon couple</span>
+Welcome to our website, where we aim to make the fascinating world of STEAM accessible to everyone. Our content is driven by curiosity and a passion for revealing the hidden beauty of science.
 
-<span class="h1">Graphs are all around us.</span> <!-- Graphs are all around us. -->
 
-Welcome to our website, where we aim to make the fascinating world of graphs accessible to everyone. Our posts simplify complex mathematical concepts, as well as showcase the many applications of graph theory in everyday life. From hidden relationships between diseases and symptoms to social dynamics and traffic patterns, graphs are everywhere, just waiting to be discovered. Our content is driven by curiosity and a passion for revealing the hidden beauty of math.
+
+<!-- <span class="h1">Graphs are all around us.</span> Graphs are all around us. -->
+
+<!-- Welcome to our website, where we aim to make the fascinating world of graphs accessible to everyone. Our posts simplify complex mathematical concepts, as well as showcase the many applications of graph theory in everyday life. From hidden relationships between diseases and symptoms to social dynamics and traffic patterns, graphs are everywhere, just waiting to be discovered. Our content is driven by curiosity and a passion for revealing the hidden beauty of math. -->
 
 

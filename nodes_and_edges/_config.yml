@@ -39,14 +39,10 @@ html:
   home_page_in_navbar: true
 
 
-
-
-
 sphinx:
   extra_extensions:
-    - sphinxcontrib.mermaid
-
+    - sphinxcontrib.mermaid # for block diagrams
 
 myst:
   disable_syntax:
-    - mermaid
+    - mermaid # for block diagrams

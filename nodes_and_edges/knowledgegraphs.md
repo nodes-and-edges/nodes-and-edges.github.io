@@ -54,23 +54,10 @@ Things we need:
 
 
 ```{mermaid}
-flowchart LR
-	NLTK --> NER --> Relation extractor
-```
-
-
-```{mermaid}
 graph LR
   A[NLTK] --> B[NER] 
   B --> C[Relation extractor]
 ```
-
-
-```{mermaid}
-graph LR
-  NLTK --> NER
-```
-
 
 
 ### Text preprocessing
