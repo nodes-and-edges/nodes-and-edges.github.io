@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+#quiz_section{
+    font-size: 1rem;
+    font-family: "Noto Sans";
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(60deg, #5399b2, #73b9d4 30%, #73b9d4 60%, #5399b2 90%); ; /* #D99F9C; /* linear-gradient(60deg, #799df1, #60c1ec 30%, #7bd9de 60%, #cfb0d2 90%);   #5399b2, #9CD6D9 60%, */
+    background-size: 100% 100%;  /* #D99F9C 73b9d4 - I really love these colours #5399b2 */
+}
+
+.quiz_category {
+    padding-top: 5rem;
+    font-family: "Major Mono Display", monospace;
+    /*text-transform: uppercase;*/
+    display: flex;
+    justify-content: center;
+}
+
+#quiz_question { 
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: white;
+  /*text-transform: uppercase;*/
+  text-align: center;
+  padding: 1rem;
+}
+
+#main_div, #east_div, #west_div {
+  /*font-family: "Major Mono Display", monospace; */
+  display: flex; /* makes it same line*/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.tile {
+  /*font-family: "Major Mono Display", monospace; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;    /* Center the items horizontally (optional) */
+  width: 15rem;
+  margin: 0.5rem;
+  padding: 1em;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: solid 0.1px #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.2) rotate(-10deg);
+    z-index: 1;
+    box-shadow: -0.2rem 0.5rem 0.5rem 0 rgba(0,0,0, 0.5);
+  }
+}
+
+
+.progress-bar {
+    --bs-gutter-x: 0px !important;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    background: #FFF;
+    border-radius: 5px;
+    overflow: hidden;
+    /*margin: 20px;*/
+}
+.progress {
+    height: 5px;
+    background: #000;
+    width: 0%;
+    transition: width 0.3s;
+} /* orange #d1ac41 */ 
+
+#quiz_score {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.no_game__wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no_game__start {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 35vh;
+  background: linear-gradient(60deg, #799df1, #60c1ec 30%, #7bd9de 60%, #cfb0d2 90%);
+  transition: transform 1s ease;
+  cursor: pointer;
+}
+.no_game__start:after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 10vh);
+  left: calc(50% - 6.5vh);
+  border-top: 13vh solid transparent;
+  border-bottom: 13vh solid transparent;
+  border-left: 20vh solid #000038;
+  pointer-events: none;
+  transition: transform 1s ease;
+}
+.no_game__start:hover {
+  transform: scale(1.1);
+}
+.no_game__start:hover:after {
+  transform: scale(1.2);
+}
+
+
+.no:game__pattern {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: right;
+  width: 12rem;
+  padding: 1rem;
+}
+.no_game__pattern-text {
+  width: 100%;
+  margin-top: 1rem;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+
+.no_card {
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.no_card h2 {
+    margin-bottom: 20px;
+}
+.no_card button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4caf50;
+    color: white;
+    /*font-size: 16px;*/
+    cursor: pointer;
+}
+.no_card button:hover {
+    background: #45a049;
+}
+
+
+
+.no {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
+  background: linear-gradient(60deg, #5399b2, #73b9d4 30%, #73b9d4 60%, #5399b2 90%); ; /* #D99F9C; /* linear-gradient(60deg, #799df1, #60c1ec 30%, #7bd9de 60%, #cfb0d2 90%);   #5399b2, #9CD6D9 60%, */
+  background-size: 100% 100%;  /* #D99F9C 73b9d4 - I really love these colours #5399b2 */
+  overflow: hidden;
+  /*font-family: "Major Mono Display", monospace;*/
+}
