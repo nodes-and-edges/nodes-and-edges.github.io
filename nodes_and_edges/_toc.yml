@@ -7,7 +7,7 @@ parts:
   - caption: Visionboard # show all the projects/visions (overview) - one page with all posts related to a goal, overview, visionboard, portfolio
     chapters:
     - file: visionboard/overview_2025
-  - caption: Coo Chronicles # storytelling, challenges, show the process, project management, videos on social media, lessons learned, storytelling, logs, project management, updates
+  - caption: Coo Chronicles [Updates] # storytelling, challenges, show the process, project management, videos on social media, lessons learned, storytelling, logs, project management, updates
     chapters:
     - file: chronicles/log_2025_01_eyeq # coo
   - caption: Fully hatched [Done] # the final products, finished projects, js tools, blogposts, anything consumable, mission accomplished, can change over time cause of more progress
