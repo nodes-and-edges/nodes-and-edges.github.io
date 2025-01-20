@@ -2,7 +2,8 @@ window.onload = function() {
   if (document.location.pathname.endsWith("sugiyama.html")) {
     start_sugiyama();
   }else if (document.location.pathname.endsWith("eyeq.html")) {
-    start_eyeq()
+    start_eyeq();
+  }
 }
 
 function start_sugiyama(){
