@@ -1,13 +1,13 @@
 /*https://codepen.io/Pedro-Ondiviela/pen/jORgbbK*/
-
+/*
 window.onload = function() {
   if (document.location.pathname.endsWith("eyeq.html")) {
     alert("eyeq")
-    start_game();
+    start_eyeq();
   }
-}
+}*/
 
-function start_game(){
+function start_eyeq(){
   let map = new Map();
   map.set('Drusen', 'answers/drusen.gif');
   map.set('Macular neovascular membranes (MNV)', 'answers/mnv.jpg');
@@ -627,7 +627,7 @@ function start_game(){
     score_html.innerHTML = '<button id="restart">Again!</button>'; /* why in the world is this not working??*/
     const button = document.getElementById("restart");
       button.addEventListener("click", () => {
-        start_game();
+        start_eyeq();
       });
 
     title.innerHTML = "THE END!";

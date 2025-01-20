@@ -5,7 +5,7 @@
 # EyeQ Posterior Segment Quiz
 
 
-<section id="quiz_section">
+<section id="quiz_section" onload="start_eyeq()">
 <div class="container">
 <div class="row center">
 <h1 class="quiz_category">Posterior segment</h1>

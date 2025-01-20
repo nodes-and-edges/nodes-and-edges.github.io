@@ -1,11 +1,11 @@
-window.onload = function() {
+/*window.onload = function() {
   if (document.location.pathname.endsWith("sugiyama.html")) {
     alert("sugiyama")
     start_game();
   }
-}
+}*/
 
-function start_game(){
+function start_sugiyama(){
 
   const game = document.getElementById("game");
   const game_title = document.getElementById("game_title");

@@ -39,10 +39,11 @@ A directed graph can represent a hierarchy, which we can define as a cycle-free 
 
 ## Quiz
 
+<section id="sugiyama_quiz" onload="start_sugiyama()">
 <div id="game_title"></div> <!-- class="fun_font" -->
 <div id="game" class="game"></div>
 <div id="score">Choose an answer</div> <!-- class="fun_font" -->
-
+</section>
 
 
 ## References
