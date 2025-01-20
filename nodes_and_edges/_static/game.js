@@ -1,11 +1,9 @@
-/*window.onload = function() {
+window.onload = function() {
   if (document.location.pathname.endsWith("sugiyama.html")) {
-    alert("sugiyama")
-    start_game();
-  }
-}*/
-
-alert("sugiyama")
+    start_sugiyama();
+  }else if (document.location.pathname.endsWith("eyeq.html")) {
+    start_eyeq()
+}
 
 function start_sugiyama(){
 
