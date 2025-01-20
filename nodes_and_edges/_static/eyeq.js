@@ -2,6 +2,7 @@
 
 window.onload = function() {
   if (document.location.pathname.endsWith("eyeq.html")) {
+    alert("eyeq")
     start_game();
   }
 }
