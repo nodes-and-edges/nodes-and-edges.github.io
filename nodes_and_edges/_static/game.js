@@ -111,15 +111,15 @@ function start_sugiyama(){
 
 function start_eyeq(){
   let map = new Map();
-  map.set('Drusen', 'answers/drusen.gif');
-  map.set('Macular neovascular membranes (MNV)', 'answers/mnv.jpg');
-  map.set("Cotton-wool spots", "answers/cotton_wool_spots.jpg")
-  map.set("Ora serrata", "answers/ora_serrata.jpg")
-  map.set("CRAO", "answers/crao.gif")
-  map.set("CRVO", "answers/crvo.jpg")
-  map.set("retinitis pigmentosa", "answers/retinitis_pigmentosa.jpg")
-  map.set("retinal layers", "answers/retina.jpg" )
-  map.set("glia", "answers/glia.jpg")
+  map.set('Drusen', '_static/images/quiz/drusen.gif');
+  //map.set('Macular neovascular membranes (MNV)', 'answers/mnv.jpg');
+  //map.set("Cotton-wool spots", "answers/cotton_wool_spots.jpg")
+  //map.set("Ora serrata", "answers/ora_serrata.jpg")
+  map.set("CRAO", "_static/images/quiz/crao.gif")
+  //map.set("CRVO", "answers/crvo.jpg")
+  //map.set("retinitis pigmentosa", "answers/retinitis_pigmentosa.jpg")
+  //map.set("retinal layers", "answers/retina.jpg" )
+  //map.set("glia", "answers/glia.jpg")
 
 
   const main_div = document.getElementById("main_div");
@@ -168,8 +168,6 @@ function start_eyeq(){
       // Add the image to the tile
       tile.appendChild(img);
     }
-
-
     return tile;
   };
 
@@ -185,9 +183,7 @@ function start_eyeq(){
     const tile = document.createElement("div");
     tile.classList.add("info-graphic");
     tile.id = id;
-
     if (map.get(id) != null){
-
       const img = document.createElement("img");
       img.src = map.get(id); // Replace with your image path
       /*img.alt = "Description of the image"; // Accessibility description*/
@@ -197,8 +193,6 @@ function start_eyeq(){
       // Add the image to the tile
       tile.appendChild(img);
     }
-
-
     return tile;
   };
 
@@ -227,37 +221,24 @@ function start_eyeq(){
     }
   }
 
-
   /* levels ########## ########## ########## ########## ########## */
-
-  const firstLevel = [
-
-  
-    
-
-  ];
-
+  const firstLevel = [];
   const levelList = [
-    
     {
-      title: "What is the most &nbsp;<b><i>anterior</i></b>&nbsp; extent of the retina?",
+      title: "What is the most anterior extent of the retina?",
       stages: [
         {
-          tiles: ["ora serrata", "😪", "🫥", "😰"],
-          correct: "ora serrata"
-        },  /*
-        {
-          tiles: ["👻", "😶‍🌫️", "🍊", "🐼", "🐡", "😜"],
-          correct: "🐼"
-        }*/
+          tiles: ["Ora serrata", "Optic nerve"],
+          correct: "Ora serrata"
+        }
       ],
       buildFunction: basicBuildFunction
     },
     {
-      title: "What is the most common cause of&nbsp;<b><i>CRVO</i></b>&nbsp;(central retinal vein occlusion)?",
+      title: "What is the most common cause of CRVO (central retinal vein occlusion)?",
       stages: [
         {
-          tiles: ["Hypertension (HTN)", "#a2fafb", "#ffbb00", "#ff0000"],
+          tiles: ["Hypertension (HTN)", "Keratitis"],
           correct: "Hypertension (HTN)",
           infographic: "CRVO"
         },
@@ -266,7 +247,7 @@ function start_eyeq(){
       buildFunction: basicBuildFunction
     },
     {
-      title: "The&nbsp;<b><i>ora serrata</i></b>&nbsp;is the transition site between the retina and the ...",
+      title: "The ora serrata is the transition site between the retina and the ...",
       stages: [
         {
           tiles: ["Ciliary body", "Optic nerve", "Choroid"],
@@ -278,7 +259,7 @@ function start_eyeq(){
     },
     
     {
-      title: "What is a sign of&nbsp;<b><i>dry AMD</i></b>&nbsp;(dry Age-Related Macular Degeneration)?",
+      title: "What is a sign of dry AMD (dry Age-Related Macular Degeneration)?",
       stages: [
         {
           tiles: ["Cotton-wool spots", 
@@ -291,7 +272,7 @@ function start_eyeq(){
     },
       
     {
-      title: "<b><i>Cherry red spot</i></b>&nbsp;is a fundoscopic finding in the macula, observed in ................. ",
+      title: "Cherry red spot is a fundoscopic finding in the macula, observed in ................. ",
       stages: [
         {
           tiles: ["Central retinal artery occlusion (CRAO)", "Central retinal vein occlusion (CRVO)", "Branch retinal vein occlusion (BRVO)"],
@@ -302,7 +283,7 @@ function start_eyeq(){
       buildFunction: basicBuildFunction
     },
     {
-      title: "Which vessel&nbsp;<b><i>supplys</i></b>&nbsp;the eye with blood?",
+      title: "Which vessel supplys the eye with blood?",
       stages: [
         {
           tiles: ["central retinal artery", "central retinal vein"],
@@ -316,7 +297,7 @@ function start_eyeq(){
       buildFunction: basicBuildFunction
     },
     {
-      title: "Which is a sign for&nbsp;<b><i>retinitis pigmentosa</i></b>&nbsp;in CFP?",
+      title: "Which is a sign for retinitis pigmentosa in CFP?",
       stages: [
         {
           tiles: ["attenuated blood vessels (1)", "drusen (1)", "aneurysm (1)", "subretinal hemorrhages (1)"],
@@ -369,223 +350,8 @@ function start_eyeq(){
         }
       ],
       buildFunction: basicBuildFunction
-    },/*
-    {
-      title: "Top",
-      stages: [
-        {
-          tiles: ["0", "-10", "-5", "-18"],
-          correct: "-18"
-        }
-      ],
-      buildFunction: (id) => {
-        const tile = prepareTile(id);
-        const px = document.createElement("div");
-        px.style = `background-color: #000038; width: 50%; height: 50%; transform: translateY(${id}px); pointer-events: none`;
-        tile.appendChild(px);
-        return tile;
-      }
     },
-    {
-      title: "???",
-      stages: [
-        {
-          tiles: ["🦁", "🐻", "🦅", "🦓"],
-          correct: "🦓"
-        },
-        {
-          tiles: ["🐊", "🦌", "🦊", "🐶"],
-          correct: "🦌"
-        }
-      ],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "Bigger than",
-      stages: [
-        {
-          tiles: [">", "<", "=", "×", "÷"],
-          correct: ">"
-        }
-      ],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "Later",
-      stages: [
-        {
-          tiles: ["🕒", "🕗", "🕠", "🕚"],
-          correct: "🕚"
-        }
-      ],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "???",
-      stages: [
-        {
-          tiles: ["🍆", "🌽", "🥕", "🍋"],
-          correct: "🍋"
-        },
-        {
-          tiles: ["🥔", "🧅", "🫑", "🍓"],
-          correct: "🍓"
-        }
-      ],
-      buildFunction: (id) => {
-        const tile = prepareTile(id);
-        tile.innerHTML = id;
-        return tile;
-      }
-    },
-    {
-      title: "???",
-      stages: [
-        {
-          tiles: ["🏀", "🥎", "🎱", "🏐"],
-          correct: "🎱"
-        }
-      ],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "School?",
-      stages: [
-        {
-          tiles: ["🖋️", "📏", "🖍️", "🎒", "🔧"],
-          correct: "🔧"
-        }
-      ],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "???",
-      stages: [
-        {
-          tiles: ["🏈", "⚽", "⚾", "🥎"],
-          correct: "🏈"
-        }
-      ],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "Warmer",
-      stages: [
-        {
-          tiles: ["#ff0000", "#ff3344", "#ff00ee", "#ff2222", "#ff9900"],
-          correct: "#ff0000"
-        }
-      ],
-      buildFunction: (id) => {
-        const tile = prepareTile(id);
-        tile.style.backgroundColor = id;
-        return tile;
-      }
-    },
-    {
-      title: "Lighter",
-      stages: [
-        {
-          tiles: ["#eeeedd", "#ccbbbb", "#bbcccc", "#ddccdd", "#aa99aa"],
-          correct: "#eeeedd"
-        }
-      ],
-      buildFunction: (id) => {
-        const tile = prepareTile(id);
-        tile.style.backgroundColor = id;
-        return tile;
-      }
-    },
-    {
-      title: "Black",
-      stages: [
-        {
-          tiles: ["#000000", "#000022", "#330000", "#111111", "#222200"],
-          correct: "#000000"
-        }
-      ],
-      buildFunction: (id) => {
-        const tile = prepareTile(id);
-        tile.style.backgroundColor = id;
-        return tile;
-      }
-    },
-    {
-      title: "Light?",
-      stages: [
-        {
-          tiles: ["🕯️", "💡", "🔦", "🧨"],
-          correct: "🧨"
-        }
-      ],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "???",
-      stages: [
-        {
-          tiles: ["🐶", "🐱", "🐹", "🦊"],
-          correct: "🦊"
-        }
-      ],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "Love?",
-      stages: [
-        {
-          tiles: ["💜", "💙", "💚", "💛", "🩷", "💔"],
-          correct: "💔"
-        }
-      ],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "Moon?",
-      stages: [
-        { tiles: ["🌒", "🌓", "🌔", "🟡", "🌖", "🌗", "🌘", "🌑"], correct: "🟡" }
-      ],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "Drag and drop - Fovea",
-      stages: [{ tiles: ["foveal pit", "foveal slope", "parafovea", "perifovea"], correct: "♟︎" }],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "Death?",
-      stages: [{ tiles: ["🪦", "👻", "💀", "⛄"], correct: "⛄" }],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "America?",
-      stages: [{ tiles: ["🇲🇽", "🇨🇺", "🇧🇷", "🇨🇴", "🇮🇹"], correct: "🇮🇹" }],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "???",
-      stages: [{ tiles: ["🥳", "🎊", "🎈", "🎉"], correct: "🎈" }],
-      buildFunction: basicBuildFunction
-    },
-    {
-      title: "Transparent",
-      stages: [
-        {
-          tiles: ["#799df1", "transparent", "#60c1ec", "#7bd9de", "#cfb0d2"],
-          correct: "transparent"
-        }
-      ],
-      buildFunction: (id) => {
-        const tile = prepareTile(id);
-        tile.style.backgroundColor = id;
-        return tile;
-      }
-    },
-    {
-      title: "???",
-      stages: [{ tiles: ["🎸", "💻", "📱", "🪇"], correct: "🪇" }],
-      buildFunction: basicBuildFunction
-    },
+    /*
     {
       title: "Match the pairs for MNV",
       stages: [
@@ -629,7 +395,6 @@ function start_eyeq(){
   const total_stages = levels.reduce((count, level) => count + level.stages.length, 0);
   const this_round_questions = total_stages > n_questions ? n_questions : total_stages; /* cut to 4 questions - no bueno todo */
 
-  /*alert(total_stages)*/
 
   /* check tile ########## ########## ########## ########## ########## */
   const checkTile = (event) => {
