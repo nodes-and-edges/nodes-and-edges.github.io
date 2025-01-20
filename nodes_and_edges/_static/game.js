@@ -5,6 +5,8 @@
   }
 }*/
 
+alert("sugiyama")
+
 function start_sugiyama(){
 
   const game = document.getElementById("game");
