@@ -26,7 +26,7 @@ I used publications to get information about the anatomy of the posterior segmen
 
 ## It is done!! [Results]
 
-You can try it soon! I just need to understand how to insert games into jupyterbooks.
+You can test it here: [eyeQ](../hatched/eyeq.md)
 
 ## Takeaway message [Lessons learned, Discussion, Conclusion]
 

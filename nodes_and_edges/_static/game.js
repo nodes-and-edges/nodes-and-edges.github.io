@@ -99,11 +99,7 @@ function start_sugiyama(){
     });
   };
 
-
-
   generateLevelSugiyama();
-
-
 }
 
 
