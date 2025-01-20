@@ -162,8 +162,7 @@ function start_eyeq(){
       const img = document.createElement("img");
       img.src = map.get(id); // Replace with your image path
       /*img.alt = "Description of the image"; // Accessibility description*/
-      img.style.width = "300px"; // Set the width of the image
-      img.style.height = "300px"; // Set the height of the image
+      img.style.width = "200px"; // Set the width of the image
 
       // Add the image to the tile
       tile.appendChild(img);
@@ -187,8 +186,7 @@ function start_eyeq(){
       const img = document.createElement("img");
       img.src = map.get(id); // Replace with your image path
       /*img.alt = "Description of the image"; // Accessibility description*/
-      img.style.width = "200px"; // Set the width of the image
-      img.style.height = "200px"; // Set the height of the image
+      img.style.width = "300px"; // Set the width of the image
 
       // Add the image to the tile
       tile.appendChild(img);
