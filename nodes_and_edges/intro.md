@@ -19,7 +19,7 @@ align: center
 :::::{grid} 1 1 2 2
 
 
-::::{grid-item-card} [Knowledge Graphs from Text](knowledgegraphs.md)
+::::{grid-item-card} [Knowledge Graphs from Text](tutorials/tto_2025_01_eyekb.md)
 :img-top: _static/images/blog/knowledgegraphs_1_firefly_crop.jpg
 :img-alt: pink and green owl
 
@@ -27,10 +27,10 @@ knowledge graph, tutorial
 ^^^
 Extracting knowledge graphs from text with Named Entity Recognition (NER) and Relation Extraction.
 +++
-[Read article](knowledgegraphs.md) by Christina, 2024-12-21
+[Read article](tutorials/tto_2025_01_eyekb.md) by Christina, 2024-12-21
 ::::
 
-::::{grid-item-card} [Ising Model](ising.md)
+::::{grid-item-card} [Ising Model](hatched/blg_2025_01_ising.md)
 :img-top: _static/images/blog/ising_1_firefly_crop.jpg
 :img-alt: pink and green mountain
 
@@ -38,10 +38,10 @@ algorithms
 ^^^
 Magnetism.
 +++
-[Read article](ising.md) by Mateo, 2024-10-20
+[Read article](hatched/blg_2025_01_ising.md) by Mateo, 2024-10-20
 ::::
 
-::::{grid-item-card} [Layered graph drawing with the Sugiyama Framework](sugiyama.md)
+::::{grid-item-card} [Layered graph drawing with the Sugiyama Framework](tutorials/tto_2025_01_sugiyama.md)
 :img-top: _static/images/blog/sugiyama_1_firefly_crop.jpg
 :img-alt: pink and green hand
 
@@ -49,7 +49,7 @@ tools, visualisation
 ^^^
 A directed graph can represent a hierarchy. Using the Sugiyama Framework, we can visualise the graph as parallel layers.
 +++
-[Read article](sugiyama.md) by Christina, 2024-10-20
+[Read article](tutorials/tto_2025_01_sugiyama.md) by Christina, 2024-10-20
 ::::
 
 

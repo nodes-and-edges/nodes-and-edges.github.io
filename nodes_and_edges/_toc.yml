@@ -12,7 +12,7 @@ parts:
     - file: chronicles/log_2025_01_eyeq # coo
   - caption: Fully hatched [Done] # the final products, finished projects, js tools, blogposts, anything consumable, mission accomplished, can change over time cause of more progress
     chapters:
-    - file: hatched/eyeQ
+    - file: hatched/eyeq
     - file: hatched/blg_2025_01_ising # hatched goes to consumables later
   - caption: Tutorials [How to] # tutorials about parts of the projects
     chapters:
