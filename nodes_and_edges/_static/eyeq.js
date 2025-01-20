@@ -1,7 +1,9 @@
 /*https://codepen.io/Pedro-Ondiviela/pen/jORgbbK*/
 
 window.onload = function() {
-  start_game();
+  if (document.location.pathname.endsWith("eyeq.html")) {
+    start_game();
+  }
 }
 
 function start_game(){
