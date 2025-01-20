@@ -70,7 +70,7 @@ function start_sugiyama(){
 
 
 
-  const checkTile = (event) => {
+  const checkTileSugiyama = (event) => {
     if (event.target.id === levels[level].stages[stage].correct) {
       score = "Correct";
 
@@ -84,7 +84,7 @@ function start_sugiyama(){
     scoreElement.innerHTML = score;
   };
 
-  const generateLevel = () => {
+  const generateLevelSugiyama = () => {
     game.innerHTML = "";
     const currentLevel = levels[level];
     game_title.innerHTML = `${currentLevel.question}`;
@@ -94,14 +94,14 @@ function start_sugiyama(){
 
     tiles.forEach((tile) => {
       const tileElement = currentLevel.buildFunction(tile);
-      tileElement.addEventListener("click", checkTile);
+      tileElement.addEventListener("click", checkTileSugiyama);
       game.appendChild(tileElement);
     });
   };
 
 
 
-  generateLevel();
+  generateLevelSugiyama();
 
 
 }
