@@ -9,6 +9,7 @@ parts:
 
   - caption: Coo Chronicles # storytelling, challenges, show the process, project management, videos on social media, lessons learned, storytelling, logs, project management, updates
     chapters:
+    - file: chronicles/log_2025_01_eyeq # coo
 
   - caption: Fully hatched # the final products, finished projects, js tools, blogposts, anything consumable, mission accomplished, can change over time cause of more progress
     chapters:
@@ -17,18 +18,13 @@ parts:
 
   - caption: Tutorials # tutorials about parts of the projects
     chapters:
+    - file: tutorials/tto_2025_01_eyekb # tutorial knowledge base
 
   - caption: Incubator # drafts, when a text page isn't done, basically the "todo list", drafts, ideas, thinktank
     chapters:
-    
-    - file: tto_2025_01_eyekb # tutorial knowledge base
-    - file: tto_2025_01_eyeq # tutorial eyeq quiz
-    - file: tto_2025_01_sugiyama # tutorial
-    - file: log_2025_01_eyeq # coo
-    - file: log_2025_01_eyekb # coo knowledge base
-
-
-
+    - file: tutorials/tto_2025_01_eyeq # tutorial eyeq quiz
+    - file: tutorials/tto_2025_01_sugiyama # tutorial
+    - file: chronicles/log_2025_01_eyekb # coo knowledge base
   
 
   # blogposts need a tldr section!!
