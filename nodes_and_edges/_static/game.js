@@ -108,14 +108,14 @@ function start_sugiyama(){
 function start_eyeq(){
   let map = new Map();
   map.set('Drusen', '../_static/images/quiz/drusen.png');
-  map.set('Macular neovascular membranes (MNV)', 'answers/mnv.png');
-  //map.set("Cotton-wool spots", "answers/cotton_wool_spots.jpg")
-  //map.set("Ora serrata", "answers/ora_serrata.jpg")
+  map.set('Macular neovascular membranes (MNV)', '../_static/images/quiz//mnv.png');
+  //map.set("Cotton-wool spots", "../_static/images/quiz/cotton_wool_spots.jpg")
+  //map.set("Ora serrata", "../_static/images/quiz/ora_serrata.jpg")
   map.set("CRAO", "../_static/images/quiz/crao.png")
-  //map.set("CRVO", "answers/crvo.jpg")
-  //map.set("retinitis pigmentosa", "answers/retinitis_pigmentosa.jpg")
-  //map.set("retinal layers", "answers/retina.jpg" )
-  //map.set("glia", "answers/glia.jpg")
+  map.set("CRVO", "../_static/images/quiz/crvo.png")
+  //map.set("retinitis pigmentosa", "../_static/images/quiz/retinitis_pigmentosa.jpg")
+  //map.set("retinal layers", "../_static/images/quiz//retina.jpg" )
+  //map.set("glia", "../_static/images/quiz//glia.jpg")
 
 
   const main_div = document.getElementById("main_div");
