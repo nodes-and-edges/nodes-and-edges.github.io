@@ -146,6 +146,10 @@ ol li > p:first-child, ul li > p:first-child{
 	letter-spacing: 0.2px;
 }
 
+.sd-col{
+	padding-bottom: 15px;
+}
+
 .sd-card-footer {
 	font-family: var(--nae-serif-text);	
 }
@@ -175,6 +179,3 @@ html{
     scrollbar-color: var(--nae-shade-neutral) transparent;
     /* scrollbar-width: thin; */
 }
-
-
-
