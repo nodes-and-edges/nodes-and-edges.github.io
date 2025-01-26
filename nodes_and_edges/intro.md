@@ -19,37 +19,28 @@ align: center
 :::::{grid} 1 1 2 2
 
 
-::::{grid-item-card} [Knowledge Graphs from Text](tutorials/tto_2025_01_eyekb.md)
+::::{grid-item-card} [eyeQ](hatched/eyeq.md)
 :img-top: _static/images/blog/knowledgegraphs_1_firefly_crop.jpg
 :img-alt: pink and green owl
 
-knowledge graph, tutorial
+quiz, posterior segment
 ^^^
-Extracting knowledge graphs from text with Named Entity Recognition (NER) and Relation Extraction.
+We made a little quiz on eye anatomy!
 +++
-[Read article](tutorials/tto_2025_01_eyekb.md) by Christina, 2024-12-21
+Hatched: [Test your eye knowledge!](hatched/eyeq.md)
+Chronicles: [The story behind the quiz](chronicles/log_2025_01_eyeq.md) by Christina, 01/2015
+Contribute: [Google forms](https://docs.google.com/forms/d/e/1FAIpQLSeGz08HbMeCnDXdxzwXLHZmzEJSYnwOSMS8Ms0nLjhS70QghQ/viewform?usp=dialog)
 ::::
 
 ::::{grid-item-card} [Ising Model](hatched/blg_2025_01_ising.md)
 :img-top: _static/images/blog/ising_1_firefly_crop.jpg
 :img-alt: pink and green mountain
 
-algorithms
+blogpost
 ^^^
-Magnetism.
+A little story - starting in 1895 - about the Ising model.
 +++
-[Read article](hatched/blg_2025_01_ising.md) by Mateo, 2024-10-20
-::::
-
-::::{grid-item-card} [Layered graph drawing with the Sugiyama Framework](tutorials/tto_2025_01_sugiyama.md)
-:img-top: _static/images/blog/sugiyama_1_firefly_crop.jpg
-:img-alt: pink and green hand
-
-tools, visualisation
-^^^
-A directed graph can represent a hierarchy. Using the Sugiyama Framework, we can visualise the graph as parallel layers.
-+++
-[Read article](tutorials/tto_2025_01_sugiyama.md) by Christina, 2024-10-20
+Hatched: [Read blogpost](hatched/blg_2025_01_ising.md) by Mateo, 01/2025
 ::::
 
 
