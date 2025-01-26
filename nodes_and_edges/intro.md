@@ -22,20 +22,20 @@ align: center
 
 ::::{grid-item-card} [eyeQ](hatched/eyeq.md)
 :img-top: _static/images/blog/eye_1_firefly_crop.jpg
-:img-alt: pink and green owl
+:img-alt: pink and green eye, generated with Adobe Firefly
 
 quiz, posterior segment
 ^^^
 We made a little quiz on eye anatomy!
 +++
-Hatched: [Test your eye knowledge!](hatched/eyeq.md)
-Chronicles: [The story behind the quiz](chronicles/log_2025_01_eyeq.md) by Christina, 01/2015
+Hatched: [Test your eye knowledge!](hatched/eyeq.md) <br>
+Chronicles: [The story behind the quiz](chronicles/log_2025_01_eyeq.md) by Christina, 01/2015 <br>
 Contribute: [Google forms](https://docs.google.com/forms/d/e/1FAIpQLSeGz08HbMeCnDXdxzwXLHZmzEJSYnwOSMS8Ms0nLjhS70QghQ/viewform?usp=dialog)
 ::::
 
 ::::{grid-item-card} [Ising Model](hatched/blg_2025_01_ising.md)
 :img-top: _static/images/blog/ising_1_firefly_crop.jpg
-:img-alt: pink and green mountain
+:img-alt: pink and green mountain, generated with Adobe Firefly
 
 blogpost
 ^^^
@@ -46,13 +46,13 @@ Hatched: [Read blogpost](hatched/blg_2025_01_ising.md) by Mateo, 01/2025
 
 ::::{grid-item-card} [Knowledge Graphs from Text](tutorials/tto_2025_01_eyekb.md)
 :img-top: _static/images/blog/nlp_1_firefly_crop.jpg
-:img-alt: pink and green mountain
+:img-alt: pink and green notebook, generated with Adobe Firefly
 
-blogpost
+tutorial, NLP
 ^^^
 Learn about how to build a knowledge base from text and convert it to a knowledge graph!
 +++
-Tutorial: [Let's get started!](tutorials/tto_2025_01_eyekb.md) by Christina, 01/2025
+Tutorial by Christina, 01/2025 - [Let's get started!](tutorials/tto_2025_01_eyekb.md)
 ::::
 
 
