@@ -16,11 +16,12 @@ align: center
 ```-->
 
 
+
 :::::{grid} 1 1 2 2
 
 
 ::::{grid-item-card} [eyeQ](hatched/eyeq.md)
-:img-top: _static/images/blog/knowledgegraphs_1_firefly_crop.jpg
+:img-top: _static/images/blog/eye_1_firefly_crop.jpg
 :img-alt: pink and green owl
 
 quiz, posterior segment
@@ -41,6 +42,17 @@ blogpost
 A little story - starting in 1895 - about the Ising model.
 +++
 Hatched: [Read blogpost](hatched/blg_2025_01_ising.md) by Mateo, 01/2025
+::::
+
+::::{grid-item-card} [Knowledge Graphs from Text](tutorials/tto_2025_01_eyekb.md)
+:img-top: _static/images/blog/nlp_1_firefly_crop.jpg
+:img-alt: pink and green mountain
+
+blogpost
+^^^
+Learn about how to build a knowledge base from text and convert it to a knowledge graph!
++++
+Tutorial: [Let's get started!](tutorials/tto_2025_01_eyekb.md) by Christina, 01/2025
 ::::
 
 
@@ -93,3 +105,5 @@ We aim to make the fascinating world of STEAM accessible to everyone here. Our c
 <!-- Welcome to our website, where we aim to make the fascinating world of graphs accessible to everyone. Our posts simplify complex mathematical concepts, as well as showcase the many applications of graph theory in everyday life. From hidden relationships between diseases and symptoms to social dynamics and traffic patterns, graphs are everywhere, just waiting to be discovered. Our content is driven by curiosity and a passion for revealing the hidden beauty of math. -->
 
 
+```{tableofcontents}
+```
