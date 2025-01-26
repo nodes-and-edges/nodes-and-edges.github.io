@@ -176,9 +176,9 @@ function start_eyeq(){
       img.src = map.get(id); // Replace with your image path
       /*img.alt = "Description of the image"; // Accessibility description*/
       img.style.width = "100%"; // Set the width of the image
-
       // Add the image to the tile
       tile.appendChild(img);
+      tile.style.width = "100%";
     }
     return tile;
   };
