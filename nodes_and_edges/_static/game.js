@@ -112,7 +112,7 @@ function start_eyeq(){
   //map.set("Cotton-wool spots", "../_static/images/quiz/cotton_wool_spots.jpg")
   //map.set("Ora serrata", "../_static/images/quiz/ora_serrata.jpg")
   map.set("CRAO", "../_static/images/quiz/crao.png")
-  map.set("CRVO", "../_static/images/quiz/crvo.png")
+  map.set("CRVO", "../_static/images/quiz/crvo.svg")
   //map.set("retinitis pigmentosa", "../_static/images/quiz/retinitis_pigmentosa.jpg")
   //map.set("retinal layers", "../_static/images/quiz//retina.jpg" )
   //map.set("glia", "../_static/images/quiz//glia.jpg")
