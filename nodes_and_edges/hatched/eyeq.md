@@ -4,6 +4,7 @@
 
 # EyeQ Posterior Segment Quiz
 
+Contribute to our community project by submitting questions for the quiz here: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGz08HbMeCnDXdxzwXLHZmzEJSYnwOSMS8Ms0nLjhS70QghQ/viewform?usp=dialog">Google Form</a>
 
 <section id="quiz_section">
 <div class="container">
