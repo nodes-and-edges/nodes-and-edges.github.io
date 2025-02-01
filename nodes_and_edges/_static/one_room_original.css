@@ -1,4 +1,4 @@
-html {
+/*html {
   height: 100%;
   overflow: hidden;
 }
@@ -13,25 +13,22 @@ body {
   overflow-x: hidden;
   font-family: Nunito;
 }
+*/
 
-h1 {
-   font-size: 250%
-}
-
-.header {
+.one_room_header {
   text-align: center;
   font-size: 175%;
   color: #fff;
   text-shadow: 0 2px 2px #000;
 }
 
-p {
+.one_room_p {
   font-size: 120%;
   line-height: 150%;
   color: #333;
 }
 
-img {
+.one_room_img {
   position: absolute;
   top: 50%;
   left: 35%;
@@ -44,7 +41,7 @@ img {
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
-img:last-of-type {
+.one_room_img:last-of-type {
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }
 
@@ -107,7 +104,7 @@ img:last-of-type {
   background: #222;
 }
 
-.title {
+.one_room_title {
   width: 50%;
   padding: 5%;
   border-radius: 5px;
@@ -116,7 +113,7 @@ img:last-of-type {
 }
 
 
-#title h1 {
+#one_room_title h1 {
  transform: translateZ(.25px) scale(.75);
  transform-origin: 50% 100%;
 }

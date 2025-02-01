@@ -13,7 +13,7 @@ This made us build tools. Tools that keep us safe. Tools that make us not want t
 </div>
 
 <div id="slide1" class="slide">
-<div class="title">
+<div class="one_room_title">
 <h1>Perfectly imperfect.</h1>
 <p>I had to think of you. Do you remember? 'Perfect is boring, and you need random moments'? Yesterday on the metro, there was a guy filling a balloon with helium from a bottle and then inhaling it. And another guy on the bus peed all over the place—it smelled so bad.
 <br>
@@ -28,7 +28,7 @@ Picture: Us under the mango tree blossom – January 2025</p>
 </div>
 
 <div id="slide2" class="slide">
-<div class="title">
+<div class="one_room_title">
 <h1>Regretting.</h1>
 <p>I was asking myself. What I can do with my life without regretting it when I am 80?<br>
 And my answer is simple.<br>
@@ -40,7 +40,7 @@ Dedicating my life to something I am interested in. Into something that has a po
 </div>
 
 <div id="slide3" class="slide">
-<div class="title">
+<div class="one_room_title">
 <h1>Pointless Life <i>by Christina</i></h1>
 <p>Some time ago I started asking people a very simple question. 
 <br>
