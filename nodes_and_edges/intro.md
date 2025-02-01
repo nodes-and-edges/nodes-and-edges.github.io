@@ -56,7 +56,7 @@ Tutorial by Christina, 01/2025 - [Let's get started!](tutorials/tto_2025_01_eyek
 ::::
 
 ::::{grid-item-card} [Empty room museum](https://nodes-and-edges.github.io/_static/empty_room.html)
-:img-top: _static/images/empty_room/empty_room.png
+:img-top: _static/images/empty_room/empty_room_crop.png
 :img-alt: door with a sign "EMPTY ROOM MUSEUM"
 
 temporary online exhibitions
