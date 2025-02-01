@@ -85,12 +85,13 @@ body {
   background-image: url("images/empty_room/pointless/interest_1_firefly.jpg");
   z-index:2;
 }
-#slide3 { /* :before */
+#slide3:before { /* :before */
   background-image: url("images/empty_room/pointless/questions_1_firefly.jpg");
   transform: translateZ(-1px) scale(2);
 }
-#slide4 {
+#slide4:before {
   background: #222;
+  transform: translateZ(-1px) scale(2);
 }
 .one_room_title {
   width: 50%;
@@ -102,4 +103,37 @@ body {
 #one_room_title h1 {
  transform: translateZ(.25px) scale(.75);
  transform-origin: 50% 100%;
+}
+
+/* CSS */
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
 }
