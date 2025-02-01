@@ -55,6 +55,17 @@ Learn about how to build a knowledge base from text and convert it to a knowledg
 Tutorial by Christina, 01/2025 - [Let's get started!](tutorials/tto_2025_01_eyekb.md)
 ::::
 
+::::{grid-item-card} [Empty room museum](https://nodes-and-edges.github.io/_static/empty_room.html)
+:img-top: _static/images/empty_room/empty_room.png
+:img-alt: door with a sign "EMPTY ROOM MUSEUM"
+
+temporary online exhibitions
+^^^
+Imagine you have an empty room. You are allowed to do an exhibition on a topic of your choice. What would the topic be?
++++
+[Enter the museum >](https://nodes-and-edges.github.io/_static/empty_room.html)
+::::
+
 
 
 :::::
