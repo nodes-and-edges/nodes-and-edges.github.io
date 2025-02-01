@@ -62,13 +62,13 @@ body {
   right: 0;
   box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
 }
-.slide:nth-child(2n) .title {
+.one_room_title {
   margin-left: 0;
   margin-right: auto;
 }
-.slide:nth-child(2n+1) .title {
-  margin-left: auto;
-  margin-right: 0;
+#slide2 .one_room_title {
+  margin-left: auto !important;
+  margin-right: 0 !important;
 }
 .slide, .slide:before {
   background: 50% 50% / cover;  
@@ -88,9 +88,10 @@ body {
 #slide3:before { /* :before */
   background-image: url("images/empty_room/pointless/questions_1_firefly.jpg");
   transform: translateZ(-1px) scale(2);
+
 }
-#slide3 {
-  padding-bottom: 0px !important;
+#slide3{
+  padding-bottom: 50px !important;
 }
 #slide4:before {
   background: #222;
