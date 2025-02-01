@@ -15,21 +15,22 @@
   position:absolute;
   
 }
-h1 {
+.one_room_h1 {
    font-size: 250%
 }
+/*
 .header {
   text-align: center;
   font-size: 175%;
   color: #fff;
   text-shadow: 0 2px 2px #000;
-}
-p {
+}*/
+.one_room_p {
   font-size: 120%;
   line-height: 150%;
   color: #333;
 }
-img {
+.one_room_img {
   position: absolute;
   top: 50%;
   left: 35%;
@@ -41,7 +42,7 @@ img {
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
-img:last-of-type {
+.one_room_img:last-of-type {
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }
 .slide {
