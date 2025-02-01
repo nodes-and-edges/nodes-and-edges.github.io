@@ -4,7 +4,7 @@
 :::::{grid} 1 1 1 1
 
 
-::::{grid-item-card} Empty_room_museum
+::::{grid-item-card}
 :img-top: ../_static/images/empty_room/empty_room.png
 :img-alt: door and sign "empty room museum"
 :link: https://nodes-and-edges.github.io/_static/empty_room.html
