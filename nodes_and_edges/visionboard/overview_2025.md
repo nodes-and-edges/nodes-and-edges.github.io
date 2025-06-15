@@ -25,9 +25,17 @@ Build a home-eye-research lab [Cookie]
 - Hatched: Lit review
 
 Make clothes [Cookie]
-- Chronicles: story about the tshirt thing - print on tshirt + the drawing thing (adobe conference - take a picture and then just draw with wacom tablet)
+- Chronicles: story about the tshirt thing - print on tshirt + the drawing (Octopus-Elefant) thing (adobe conference - take a picture and then just draw with wacom tablet)
 - Chronicles: Sewing
 
 Improve ELO in Blitz-Chess [Cooper]
 
 
+
+New (half way):
+
+Sticker-shop
+
+Write a book
+
+Write a song and record
